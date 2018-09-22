@@ -1,16 +1,25 @@
 {
-  "name": "chalk",
-  "scripts": {
-    "setup": "bin/setup",
-    "local": "bundle exec jekyll serve --drafts",
-    "publish": "bin/deploy"
+  "name": "hpstr-theme",
+  "author": "Aron Bordin <aron.bordin@gmail.com>",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
   },
-  "dependencies": {
-    "jquery": "^3.2.1",
-    "npm": "^6.0.1",
-    "retinajs": "^2.1.1",
-    "svgxuse": "^1.2.4",
-    "webfontloader": "^1.6.28",
-    "zooming": "^2.0.0"
+  "bugs": {
+    "url": ""
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-imagemin": "~0.2.0",
+    "grunt-contrib-jshint": "~0.6.3",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-watch": "~0.5.2",
+    "grunt-githooks": "^0.3.1",
+    "grunt-svgmin": "~0.2.0"
   }
 }
