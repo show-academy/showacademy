@@ -4,8 +4,19 @@
 
 # Exit if any subcommand fails.
 set -e
-
 echo "Started deploying"
+echo "Will commit all changes and push."
+git add . && git status
+
+echo "---"
+echo "Describe the changes: "
+read commitmessage
+
+git commit -m"$commitmessage" && git push
+if [ $? -ne 0 ]; then
+    echo "Could not commit/push, exiting." 
+    exit 1
+fi
 
 # Checkout gh-pages branch.
 if [ `git branch | grep gh-pages` ]
