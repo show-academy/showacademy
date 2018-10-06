@@ -1,6 +1,11 @@
 title:            Show Academy
 description:      Creative party entertainment services
 
+languages: ["ee", "ru", "en"]
+default_lang: "ee"
+exclude_from_localization: ["javascript", "images", "css"]
+parallel_localization: true
+
 # put your disqus here
 disqus_shortname:
 reading_time:     true # if true, shows the estimated reading time for a post
@@ -18,24 +23,9 @@ url:
 #   To create sub categories. add a submenu item
 # See the example
 menu:
-  - title: 'Home'
-    url: '/'
-  - title: 'About'
-    url: '/about'
-  - title: 'Tags'
-    url: '/tags'
-  - title: 'Categories'
+  - title: 'Разделы'
     url: '/categories'
     type: 'categories'
-  - title: 'Language'
-    url: '#'
-    submenu:
-      - title: 'English'
-        url: '/'
-      - title: 'Eesti'
-        url: '/ee/'
-      - title: 'Русский'
-        url: '/ru/'
 
 # Owner/author information
 owner:
@@ -45,6 +35,7 @@ owner:
   bio:            "Creative party entertainment services"
   email:          tallinn.show.academy@gmail.com
   phone:          "+37255994317"
+  #facebook:       showacademytallinn
   # Twitter nick for use in Twitter cards and follow button.
   twitter: # if no twitter in this config, the twitter follow button will be removed
   # GitHub nick for use in follow button in author block.
@@ -56,6 +47,15 @@ twitter:
 
 # Social networking links used in author block underneath posts. Update and remove as you like.
 social:
+  - title: "phone"
+    url: "callto:+37255994317"  
+    text: "+37255994317"
+  - title: "envelope"
+    url: "mailto:tallinn.show.academy@gmail.com"  
+    text: tallinn.show.academy@gmail.com
+  - title: "facebook"
+    url: "https://www.facebook.com/showacademytallinn"
+    text: showacademytallinn
 #  - title: "github"
 #    url: "https://github.com/aron-bordin"
 #  - title: "linkedin"
@@ -102,6 +102,7 @@ page_layout: page
 titlecase: true
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
-plugins: [jekyll-paginate]
+exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", ".sublime-project", ".sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+plugins: [jekyll-paginate, jekyll-polyglot]
 #theme: neo-hpstr-jekyll-theme
+

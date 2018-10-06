@@ -1,1 +1,17 @@
+<div class="read-more">
+  <div class="read-more-header">
+    <a href="{{ site.owner.site }}" class="read-more-btn">Свяжитесь с нами</a>
+  </div><!-- /.read-more-header -->
+  <div class="read-more-content author-info">
+    <h3>{{site.owner.name}}</h3>
+    <div class="author-container">
+      <ul style="list-style-type: none; text-align: left;">
+        {% for network in site.social %}
+          <li><a href="{{ network.url }}" target="_blank" style="text-decoration: none;"><i class="fa fa-{{ network.title }} fa-fw"></i><b style="margin-left: 1em;">{{ network.text }}</b></a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+
 <span>&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}.</span>
