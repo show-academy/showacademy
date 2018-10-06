@@ -1,16 +1,15 @@
 <div class="read-more">
   <div class="read-more-header">
-    <a href="{{ site.owner.site }}" class="read-more-btn">Свяжитесь с нами</a>
+    <a href="mailto:{{ site.owner.email }}" class="read-more-btn">Свяжитесь с нами</a>
   </div><!-- /.read-more-header -->
-  <div class="read-more-content author-info">
-    <h3>{{site.owner.name}}</h3>
-    <div class="author-container">
-      <ul style="list-style-type: none; text-align: left;">
+  <div class="author-info">
+    
         {% for network in site.social %}
-          <li><a href="{{ network.url }}" target="_blank" style="text-decoration: none;"><i class="fa fa-{{ network.title }} fa-fw"></i><b style="margin-left: 1em;">{{ network.text }}</b></a></li>
+        <div style="float:left; margin:10px;">
+          <a href="{{ network.url }}" target="_blank" style="text-decoration: none;"><i class="fa fa-{{ network.title }} fa-fw"></i><span style="margin-left:5px; font-family: Calibri;">{{ network.text }}</span></a>
+        </div>
         {% endfor %}
-      </ul>
-    </div>
+
   </div>
 </div>
 
