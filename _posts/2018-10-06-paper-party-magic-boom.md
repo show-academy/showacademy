@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Бумажное шоу вечеринка
+title: Бумажное шоу - вечеринка
 description: 
 tags: [Услуги, Бумажное шоу]
 categories: [Бумажное шоу]
