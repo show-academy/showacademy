@@ -16,6 +16,9 @@ h1 {
 		@include font-rem(32);
 	}
 }
+.header-menu {
+	font-family: $heading-font;
+}
 
 // Links
 // --------------------------------------------------
