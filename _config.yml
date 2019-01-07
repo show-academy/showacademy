@@ -1,8 +1,8 @@
 title:            Show Academy
 description:      Creative party entertainment services
 
-languages: ["ee", "ru", "en"]
-default_lang: "ee"
+languages: ["ru"]
+default_lang: "ru"
 exclude_from_localization: ["javascript", "images", "css"]
 parallel_localization: true
 

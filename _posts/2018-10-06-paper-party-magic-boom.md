@@ -7,4 +7,3 @@ categories: [Бумажное шоу]
 image:
     feature: posts/cash-confetti.jpg
 ---
-
