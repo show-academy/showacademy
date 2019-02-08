@@ -19,6 +19,18 @@
 </script>
 {% endif %}
 
+{% if site.google_tag %}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_tag }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{ site.google_tag }}');
+</script>
+{% endif %}
+
 {% if page.comments != false %}{% include disqus_comments.html %}{% endif %}
 
 {% if site.float_share %}
@@ -26,3 +38,4 @@
     sharing();
 </script>
 {% endif %}
+

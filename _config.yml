@@ -67,6 +67,7 @@ social:
 background: party-bg.png
 
 # Analytics and webmaster tools stuff goes here
+google_tag: UA-124908281-2
 google_analytics:
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
