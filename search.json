@@ -1,13 +1,83 @@
----
----
 [
-  {% for post in site.posts %}
+  
     {
-      "title"    : "{{ post.title | escape }}",
-      "category" : "{{ post.category }}",
-      "tags"     : "{{ post.tags | join: ', ' }}",
-      "url"      : "{{ site.url }}{{ post.url }}",
-      "date"     : "{{ post.date }}"
-    } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
+      "title"    : "МАГИЯ ГРУЗИИ",
+      "category" : "",
+      "tags"     : "Анонсы",
+      "url"      : "/%D0%B0%D0%BD%D0%BE%D0%BD%D1%81%D1%8B/magic_gruzija/",
+      "date"     : "2019-02-18 00:00:00 +0200"
+    } ,
+  
+    {
+      "title"    : "Добро пожаловать!",
+      "category" : "",
+      "tags"     : "Анонсы",
+      "url"      : "/%D0%B0%D0%BD%D0%BE%D0%BD%D1%81%D1%8B/welcome/",
+      "date"     : "2019-01-08 00:00:00 +0200"
+    } ,
+  
+    {
+      "title"    : "Бумажное шоу - Live!",
+      "category" : "",
+      "tags"     : "Услуги, Бумажное шоу",
+      "url"      : "/%D0%B1%D1%83%D0%BC%D0%B0%D0%B6%D0%BD%D0%BE%D0%B5%20%D1%88%D0%BE%D1%83/paper-party-live/",
+      "date"     : "2018-12-16 00:00:00 +0200"
+    } ,
+  
+    {
+      "title"    : "Бумажное шоу - вечеринка",
+      "category" : "",
+      "tags"     : "Услуги, Бумажное шоу",
+      "url"      : "/%D0%B1%D1%83%D0%BC%D0%B0%D0%B6%D0%BD%D0%BE%D0%B5%20%D1%88%D0%BE%D1%83/paper-party-magic-boom/",
+      "date"     : "2018-10-06 00:00:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Бумажное приключение для детей",
+      "category" : "",
+      "tags"     : "Услуги, Бумажное шоу",
+      "url"      : "/%D0%B1%D1%83%D0%BC%D0%B0%D0%B6%D0%BD%D0%BE%D0%B5%20%D1%88%D0%BE%D1%83/paper-kids-party/",
+      "date"     : "2018-10-06 00:00:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Свадебное ледяное шоу",
+      "category" : "",
+      "tags"     : "Услуги, Крио шоу",
+      "url"      : "/%D0%BA%D1%80%D0%B8%D0%BE%20%D1%88%D0%BE%D1%83/crio-wedding-party/",
+      "date"     : "2018-10-06 00:00:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Новогоднее Ледяное приключение",
+      "category" : "",
+      "tags"     : "Услуги, Крио шоу",
+      "url"      : "/%D0%BA%D1%80%D0%B8%D0%BE%20%D1%88%D0%BE%D1%83/crio-new-year/",
+      "date"     : "2018-10-06 00:00:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Мастер класс по изготовлению мороженого",
+      "category" : "",
+      "tags"     : "Услуги, Крио шоу",
+      "url"      : "/%D0%BA%D1%80%D0%B8%D0%BE%20%D1%88%D0%BE%D1%83/crio-icecream/",
+      "date"     : "2018-10-06 00:00:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Шоу Ледяной взрыв",
+      "category" : "",
+      "tags"     : "Услуги, Крио шоу",
+      "url"      : "/%D0%BA%D1%80%D0%B8%D0%BE%20%D1%88%D0%BE%D1%83/crio-ice-boom/",
+      "date"     : "2018-10-06 00:00:00 +0300"
+    } ,
+  
+    {
+      "title"    : "Мы принимаем Ваши заказы!",
+      "category" : "",
+      "tags"     : "Анонсы",
+      "url"      : "/%D0%B0%D0%BD%D0%BE%D0%BD%D1%81%D1%8B/launch/",
+      "date"     : "2018-09-12 00:00:00 +0300"
+    } 
+  
 ]

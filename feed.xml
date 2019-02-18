@@ -1,38 +1,219 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-<title type="text">{{ site.title }}</title>
+<title type="text">Show Academy</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="{{ site.url }}/feed.xml" />
-<link rel="alternate" type="text/html" href="{{ site.url }}" />
-<updated>{{ site.time | date_to_xmlschema }}</updated>
-<id>{{ site.url }}/</id>
+<link rel="self" type="application/atom+xml" href="/feed.xml" />
+<link rel="alternate" type="text/html" href="" />
+<updated>2019-02-18T22:37:03+02:00</updated>
+<id>/</id>
 <author>
-  <name>{{ site.owner.name }}</name>
-  <uri>{{ site.url }}/</uri>
-  {% if site.owner.email %}<email>{{ site.owner.email }}</email>{% endif %}
+  <name>Show Academy</name>
+  <uri>/</uri>
+  <email>tallinn.show.academy@gmail.com</email>
 </author>
-{% for post in site.posts limit:20 %}
+
 
 <entry>
-  <title type="html"><![CDATA[{{ post.title | cdata_escape }}]]></title>
- <link rel="alternate" type="text/html" href="{% if post.link %}{{ post.link }}{% else %}{{ site.url }}{{ post.url }}{% endif %}" />
-  <id>{{ site.url }}{{ post.id }}</id>
-  {% if post.modified %}<updated>{{ post.modified | to_xmlschema }}T00:00:00-00:00</updated>
-  <published>{{ post.date | date_to_xmlschema }}</published>
-  {% else %}<published>{{ post.date | date_to_xmlschema }}</published>
-  <updated>{{ post.date | date_to_xmlschema }}</updated>{% endif %}
+  <title type="html"><![CDATA[МАГИЯ ГРУЗИИ]]></title>
+ <link rel="alternate" type="text/html" href="/%D0%B0%D0%BD%D0%BE%D0%BD%D1%81%D1%8B/magic_gruzija/" />
+  <id>/%D0%B0%D0%BD%D0%BE%D0%BD%D1%81%D1%8B/magic_gruzija</id>
+  <published>2019-02-18T00:00:00+02:00</published>
+  <updated>2019-02-18T00:00:00+02:00</updated>
   <author>
-    <name>{{ site.owner.name }}</name>
-    <uri>{{ site.url }}</uri>
-    <email>{{ site.owner.email }}</email>
+    <name>Show Academy</name>
+    <uri></uri>
+    <email>tallinn.show.academy@gmail.com</email>
   </author>
   <content type="html">
-    {{ post.content | xml_escape }}
-    {% include feed-footer.html %}
+    &lt;p&gt;&lt;a href=&quot;https://creativetours.eu/&quot;&gt;&lt;em&gt;Тренинг-тур в Грузию 23-30 мая 2019&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Мастер-классы по актерскому мастерству, приправленные красотами Грузии.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://creativetours.eu/&quot;&gt;Подробнее..&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/%D0%B0%D0%BD%D0%BE%D0%BD%D1%81%D1%8B/magic_gruzija/&quot;&gt;МАГИЯ ГРУЗИИ&lt;/a&gt; was originally published by Show Academy at &lt;a href=&quot;&quot;&gt;Show Academy&lt;/a&gt; on February 18, 2019.&lt;/p&gt;
   </content>
 </entry>
-{% endfor %}
+
+
+<entry>
+  <title type="html"><![CDATA[Добро пожаловать!]]></title>
+ <link rel="alternate" type="text/html" href="/%D0%B0%D0%BD%D0%BE%D0%BD%D1%81%D1%8B/welcome/" />
+  <id>/%D0%B0%D0%BD%D0%BE%D0%BD%D1%81%D1%8B/welcome</id>
+  <published>2019-01-08T00:00:00+02:00</published>
+  <updated>2019-01-08T00:00:00+02:00</updated>
+  <author>
+    <name>Show Academy</name>
+    <uri></uri>
+    <email>tallinn.show.academy@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;В 2018 году компания Show Academy OÜ решила объединить под своим началом профессионалов сферы развлечений, актеров, творческих людей, знающих как создать праздничное настроение для любого случая.&lt;/p&gt;
+
+&lt;p&gt;Самые опытные из наших ребят работают в сфере развлечений и организации мероприятий более 10 лет.&lt;/p&gt;
+
+&lt;p&gt;Основное направление работы - проведение праздников и корпоративов для организаций. В данный момент разрабатывается новое направление - выездные квесты и развлекательные экскурсионные программы.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/%D0%B0%D0%BD%D0%BE%D0%BD%D1%81%D1%8B/welcome/&quot;&gt;Добро пожаловать!&lt;/a&gt; was originally published by Show Academy at &lt;a href=&quot;&quot;&gt;Show Academy&lt;/a&gt; on January 08, 2019.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Бумажное шоу - Live!]]></title>
+ <link rel="alternate" type="text/html" href="/%D0%B1%D1%83%D0%BC%D0%B0%D0%B6%D0%BD%D0%BE%D0%B5%20%D1%88%D0%BE%D1%83/paper-party-live/" />
+  <id>/%D0%B1%D1%83%D0%BC%D0%B0%D0%B6%D0%BD%D0%BE%D0%B5%20%D1%88%D0%BE%D1%83/paper-party-live</id>
+  <published>2018-12-16T00:00:00+02:00</published>
+  <updated>2018-12-16T00:00:00+02:00</updated>
+  <author>
+    <name>Show Academy</name>
+    <uri></uri>
+    <email>tallinn.show.academy@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Не уверены, как отметить праздник? Наша команда приложит все усилия, для того чтобы этот день был особенным и незабываемым для Вас и Ваших гостей! Подготовим сценарий мероприятия, учитывая все Ваши пожелания.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fshowacademytallinn%2Fvideos%2F766190700395635%2F&amp;amp;show_text=0&amp;amp;width=476&quot; width=&quot;476&quot; height=&quot;476&quot; style=&quot;border:none;overflow:hidden&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/%D0%B1%D1%83%D0%BC%D0%B0%D0%B6%D0%BD%D0%BE%D0%B5%20%D1%88%D0%BE%D1%83/paper-party-live/&quot;&gt;Бумажное шоу - Live!&lt;/a&gt; was originally published by Show Academy at &lt;a href=&quot;&quot;&gt;Show Academy&lt;/a&gt; on December 16, 2018.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Бумажное шоу - вечеринка]]></title>
+ <link rel="alternate" type="text/html" href="/%D0%B1%D1%83%D0%BC%D0%B0%D0%B6%D0%BD%D0%BE%D0%B5%20%D1%88%D0%BE%D1%83/paper-party-magic-boom/" />
+  <id>/%D0%B1%D1%83%D0%BC%D0%B0%D0%B6%D0%BD%D0%BE%D0%B5%20%D1%88%D0%BE%D1%83/paper-party-magic-boom</id>
+  <published>2018-10-06T00:00:00+03:00</published>
+  <updated>2018-10-06T00:00:00+03:00</updated>
+  <author>
+    <name>Show Academy</name>
+    <uri></uri>
+    <email>tallinn.show.academy@gmail.com</email>
+  </author>
+  <content type="html">
+    
+
+    &lt;p&gt;&lt;a href=&quot;/%D0%B1%D1%83%D0%BC%D0%B0%D0%B6%D0%BD%D0%BE%D0%B5%20%D1%88%D0%BE%D1%83/paper-party-magic-boom/&quot;&gt;Бумажное шоу - вечеринка&lt;/a&gt; was originally published by Show Academy at &lt;a href=&quot;&quot;&gt;Show Academy&lt;/a&gt; on October 06, 2018.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Бумажное приключение для детей]]></title>
+ <link rel="alternate" type="text/html" href="/%D0%B1%D1%83%D0%BC%D0%B0%D0%B6%D0%BD%D0%BE%D0%B5%20%D1%88%D0%BE%D1%83/paper-kids-party/" />
+  <id>/%D0%B1%D1%83%D0%BC%D0%B0%D0%B6%D0%BD%D0%BE%D0%B5%20%D1%88%D0%BE%D1%83/paper-kids-party</id>
+  <published>2018-10-06T00:00:00+03:00</published>
+  <updated>2018-10-06T00:00:00+03:00</updated>
+  <author>
+    <name>Show Academy</name>
+    <uri></uri>
+    <email>tallinn.show.academy@gmail.com</email>
+  </author>
+  <content type="html">
+    
+
+    &lt;p&gt;&lt;a href=&quot;/%D0%B1%D1%83%D0%BC%D0%B0%D0%B6%D0%BD%D0%BE%D0%B5%20%D1%88%D0%BE%D1%83/paper-kids-party/&quot;&gt;Бумажное приключение для детей&lt;/a&gt; was originally published by Show Academy at &lt;a href=&quot;&quot;&gt;Show Academy&lt;/a&gt; on October 06, 2018.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Свадебное ледяное шоу]]></title>
+ <link rel="alternate" type="text/html" href="/%D0%BA%D1%80%D0%B8%D0%BE%20%D1%88%D0%BE%D1%83/crio-wedding-party/" />
+  <id>/%D0%BA%D1%80%D0%B8%D0%BE%20%D1%88%D0%BE%D1%83/crio-wedding-party</id>
+  <published>2018-10-06T00:00:00+03:00</published>
+  <updated>2018-10-06T00:00:00+03:00</updated>
+  <author>
+    <name>Show Academy</name>
+    <uri></uri>
+    <email>tallinn.show.academy@gmail.com</email>
+  </author>
+  <content type="html">
+    
+
+    &lt;p&gt;&lt;a href=&quot;/%D0%BA%D1%80%D0%B8%D0%BE%20%D1%88%D0%BE%D1%83/crio-wedding-party/&quot;&gt;Свадебное ледяное шоу&lt;/a&gt; was originally published by Show Academy at &lt;a href=&quot;&quot;&gt;Show Academy&lt;/a&gt; on October 06, 2018.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Новогоднее Ледяное приключение]]></title>
+ <link rel="alternate" type="text/html" href="/%D0%BA%D1%80%D0%B8%D0%BE%20%D1%88%D0%BE%D1%83/crio-new-year/" />
+  <id>/%D0%BA%D1%80%D0%B8%D0%BE%20%D1%88%D0%BE%D1%83/crio-new-year</id>
+  <published>2018-10-06T00:00:00+03:00</published>
+  <updated>2018-10-06T00:00:00+03:00</updated>
+  <author>
+    <name>Show Academy</name>
+    <uri></uri>
+    <email>tallinn.show.academy@gmail.com</email>
+  </author>
+  <content type="html">
+    
+
+    &lt;p&gt;&lt;a href=&quot;/%D0%BA%D1%80%D0%B8%D0%BE%20%D1%88%D0%BE%D1%83/crio-new-year/&quot;&gt;Новогоднее Ледяное приключение&lt;/a&gt; was originally published by Show Academy at &lt;a href=&quot;&quot;&gt;Show Academy&lt;/a&gt; on October 06, 2018.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Мастер класс по изготовлению мороженого]]></title>
+ <link rel="alternate" type="text/html" href="/%D0%BA%D1%80%D0%B8%D0%BE%20%D1%88%D0%BE%D1%83/crio-icecream/" />
+  <id>/%D0%BA%D1%80%D0%B8%D0%BE%20%D1%88%D0%BE%D1%83/crio-icecream</id>
+  <published>2018-10-06T00:00:00+03:00</published>
+  <updated>2018-10-06T00:00:00+03:00</updated>
+  <author>
+    <name>Show Academy</name>
+    <uri></uri>
+    <email>tallinn.show.academy@gmail.com</email>
+  </author>
+  <content type="html">
+    
+
+    &lt;p&gt;&lt;a href=&quot;/%D0%BA%D1%80%D0%B8%D0%BE%20%D1%88%D0%BE%D1%83/crio-icecream/&quot;&gt;Мастер класс по изготовлению мороженого&lt;/a&gt; was originally published by Show Academy at &lt;a href=&quot;&quot;&gt;Show Academy&lt;/a&gt; on October 06, 2018.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Шоу Ледяной взрыв]]></title>
+ <link rel="alternate" type="text/html" href="/%D0%BA%D1%80%D0%B8%D0%BE%20%D1%88%D0%BE%D1%83/crio-ice-boom/" />
+  <id>/%D0%BA%D1%80%D0%B8%D0%BE%20%D1%88%D0%BE%D1%83/crio-ice-boom</id>
+  <published>2018-10-06T00:00:00+03:00</published>
+  <updated>2018-10-06T00:00:00+03:00</updated>
+  <author>
+    <name>Show Academy</name>
+    <uri></uri>
+    <email>tallinn.show.academy@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Экстремальное научное шоу с жидким азотом и сухим льдом - эффектная, зрелищная программа, которая  украсит ваш праздник.&lt;/p&gt;
+
+&lt;p&gt;Опыты происходят на ваших глазах, а порой даже вашими руками. Кипящие пробирки, шипящие колбы, настоящие водяные взрывы и горящие мыльные пузыри, а так же инновации в «кулинарии»…&lt;/p&gt;
+
+&lt;p&gt;Волшебство или наука?! Чудо или правильно смешанные компоненты?! Решать вам!… но то, что ваше празднество превратиться в невероятную, захватывающую феерию — это однозначно !&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/%D0%BA%D1%80%D0%B8%D0%BE%20%D1%88%D0%BE%D1%83/crio-ice-boom/&quot;&gt;Шоу Ледяной взрыв&lt;/a&gt; was originally published by Show Academy at &lt;a href=&quot;&quot;&gt;Show Academy&lt;/a&gt; on October 06, 2018.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Мы принимаем Ваши заказы!]]></title>
+ <link rel="alternate" type="text/html" href="/%D0%B0%D0%BD%D0%BE%D0%BD%D1%81%D1%8B/launch/" />
+  <id>/%D0%B0%D0%BD%D0%BE%D0%BD%D1%81%D1%8B/launch</id>
+  <published>2018-09-12T00:00:00+03:00</published>
+  <updated>2018-09-12T00:00:00+03:00</updated>
+  <author>
+    <name>Show Academy</name>
+    <uri></uri>
+    <email>tallinn.show.academy@gmail.com</email>
+  </author>
+  <content type="html">
+    
+
+    &lt;p&gt;&lt;a href=&quot;/%D0%B0%D0%BD%D0%BE%D0%BD%D1%81%D1%8B/launch/&quot;&gt;Мы принимаем Ваши заказы!&lt;/a&gt; was originally published by Show Academy at &lt;a href=&quot;&quot;&gt;Show Academy&lt;/a&gt; on September 12, 2018.&lt;/p&gt;
+  </content>
+</entry>
+
 </feed>
